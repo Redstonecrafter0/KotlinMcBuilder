@@ -1,0 +1,46 @@
+:root {
+    --anim-time: 100ms;
+}
+body {
+    background: #121212;
+}
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat Medium", "Segoe UI", sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background: #fbfbfb;
+    height: 100px;
+}
+nav a {
+    height: 100%;
+    width: calc(100px - .25rem);
+}
+nav svg {
+    margin: .5rem;
+}
+#downloads {
+    position: relative;
+    text-align: center;
+    top: 2rem;
+}
+main {
+    margin: 5rem;
+}
+.version {
+    display: flex;
+    flex-direction: row;
+    background: #202020;
+    transition: var(--anim-time);
+}
+.version * {
+    margin: 1rem;
+    width: 7.5rem;
+}
+.version:hover {
+    background: #303030;
+}

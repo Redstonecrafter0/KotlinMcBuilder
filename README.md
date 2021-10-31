@@ -9,7 +9,7 @@ This project needs Java 17 to run.
 ## Setup
 1. Download [Maven](https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.zip).
 2. Put the extracted directory next to the server.jar so that it can access it.
-3. Run `java -jar server.jar <port>` where port is optional (defaults to 80).
+3. Run `java --enable-preview -jar server.jar <port>` where port is optional (defaults to 80).
 4. Open [`http://localhost:<port>/`](https://localhost:80/) in your browser.
 
 ## Maven

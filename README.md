@@ -34,5 +34,5 @@ To add the provided maven repo use this snippet.
 ## Use
 The final plugin is a combined Bukkit and Bungeecord plugin, so you can use the same jar for both.  
 The minimal Minecraft version for Bukkit is 1.8.8.  
-The minimal Minecraft version for Bungeecord is 1.16.
+The minimal Minecraft version for Bungeecord is 1.16.  
 The minimal Java version for the plugins is 8.

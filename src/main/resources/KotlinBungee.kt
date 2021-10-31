@@ -33,9 +33,9 @@ lccccccccccccccccccccllllllllllllllllldO"""
         fun createMessage(message: String): List<String> {
             val list = mutableListOf<String>()
             list.add("┏" + "━" * 47 + "┓")
-            list.add("┃ " + message * (45 - message.length) + " ┃")
+            list.add("┃ " + message + " " * (45 - message.length) + " ┃")
             list.add("┣" + "━" * 47 + "┫")
-            asciiLogo.split("\n").forEach {list.add("┣ " + it + " " * (it.length - 45) + " ┫")}
+            asciiLogo.split("\n").forEach {list.add("┃ " + it + " " * (45 - it.length) + " ┃")}
             list.add("┗" + "━" * 47 + "┛")
             return list
         }
